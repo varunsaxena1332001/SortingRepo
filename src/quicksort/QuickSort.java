@@ -30,10 +30,8 @@ public class QuickSort {
                 partitionIndex++;
             }
         }
-
         // put the pivot on a suitable position
         swap(array, partitionIndex, rightIndex);
-
         return partitionIndex;
     }
 
